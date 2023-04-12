@@ -1,0 +1,6 @@
+services:
+  shwld-python-ja:
+    image: shwld/python-ja
+    build:
+      context: .
+      dockerfile: Dockerfile
